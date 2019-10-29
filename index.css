@@ -1,0 +1,30 @@
+#header{
+  display:flex;
+  flex-direction: row;
+  height: 101px;
+}
+
+#ul{
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+li{
+  padding-left: 25px;
+}
+
+#header-img{
+  max-height: 100%;
+}
+
+#nav-bar{
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width:600px){
+  #header {
+    flex-direction: column;
+  }
+}
